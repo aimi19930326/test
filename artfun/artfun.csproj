@@ -65,24 +65,34 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\regist\regist.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="html\regist\regist.html" />
+    <Content Include="imgs\login\XMLID_630_.png" />
+    <Content Include="imgs\regist\close.png" />
+    <Content Include="imgs\regist\facebook.png" />
+    <Content Include="imgs\regist\qq.png" />
+    <Content Include="imgs\regist\regist.png" />
+    <Content Include="imgs\regist\twitter.png" />
+    <Content Include="imgs\regist\wechat.png" />
+    <Content Include="imgs\regist\xinlang.png" />
+    <Content Include="imgs\XMLID_903_.jpg" />
     <Content Include="js\jquery-1.11.2.min.js" />
+    <Content Include="js\regist\regist.js" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="artwork\" />
-    <Folder Include="css\" />
-    <Folder Include="imgs\" />
+    <Folder Include="css\index\" />
+    <Folder Include="css\login\" />
+    <Folder Include="html\index\" />
+    <Folder Include="html\login\" />
+    <Folder Include="imgs\index\" />
+    <Folder Include="js\index\" />
+    <Folder Include="js\login\" />
     <Folder Include="user\" />
     <Folder Include="utils\" />
   </ItemGroup>

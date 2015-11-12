@@ -1,0 +1,22 @@
+body{
+	font-family: "微软雅黑";
+	color: #808080;
+	height: 800px;
+	font-size: 10pt;
+	width: 1000px;
+	margin:0 auto;
+}
+ul{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+input{
+	height: 25px;
+	width: 180px;
+	border-width: 1pt;
+	border-color: rgb(177,177,177);
+}
+a{
+	text-decoration: none;
+}
