@@ -67,7 +67,7 @@
   <ItemGroup>
     <Content Include="css\regist\regist.css" />
     <Content Include="css\reset.css" />
-    <Content Include="html\regist\regist.html" />
+    <Content Include="user\regist.html" />
     <Content Include="imgs\login\XMLID_630_.png" />
     <Content Include="imgs\regist\close.png" />
     <Content Include="imgs\regist\facebook.png" />
@@ -88,12 +88,9 @@
     <Folder Include="artwork\" />
     <Folder Include="css\index\" />
     <Folder Include="css\login\" />
-    <Folder Include="html\index\" />
-    <Folder Include="html\login\" />
     <Folder Include="imgs\index\" />
     <Folder Include="js\index\" />
     <Folder Include="js\login\" />
-    <Folder Include="user\" />
     <Folder Include="utils\" />
   </ItemGroup>
   <PropertyGroup>
