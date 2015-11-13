@@ -7,6 +7,7 @@ $(document).ready(function(){
 	});
 	$(".textbox").val("请输入手机号");
 	$(".password").val("请输入密码：至少6位");
+	$(".confirmpsd").val("再次确认密码");
 	$(".input_verify").val("验证码");
 	$(".textbox").bind("click",function(){
 		registname="";
@@ -40,7 +41,7 @@ $(document).ready(function(){
 			$(this).val("验证码");
 		}
 	});
-	$(".password").bind("click",function(){
+	$(".password,.confirmpsd").bind("click", function () {
 		$(this).val("");
 		$(this).attr("type","password");
 	});
@@ -90,5 +91,8 @@ $(document).ready(function(){
 			$(".btn_email").css({
 				"color":"#808080"
 			});
-		});
+	});
+	$(".regist").bind("click", function () {
+	    window.location.replace("login.aspx");
+	});
 });

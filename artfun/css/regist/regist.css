@@ -12,7 +12,7 @@
 	clear: both;
 	border-width: 1pt;
 	border-style: solid;
-	width: 290px;
+	width: 280px;
 	height: 420px;
 	border-color: rgb(202,202,202);
 	top:50%;
@@ -44,7 +44,7 @@
 	display: inline-block;
 }
 .lb_society{
-	margin-top: 34px;
+	margin-top: 10px;
 	margin-left: 0px;
 	display: inline-block;
 }
@@ -56,15 +56,30 @@
 }
 .img_society>div>img{
 	margin-left: 20px;
+    width:40px;
+    height:40px;
 }
 .img_society_2{
 	clear: both;
+    margin-bottom:10px;
+}
+.phone_email {
+    margin-top:8px;
+    margin-bottom:5px;
+}
+.divider {
+    clear:both;
+    margin-top:20px;
+    width:180px;
+    height:1px;
+    background-color:rgb(202,202,202);
+    margin:0 auto;
 }
 .lb_phone{
 	margin-top: 36px;
 }
 input{
-	margin-top: 7px;
+	margin-top: 5px;
 }
 .input_verify{
 	width: 60px;
@@ -73,7 +88,7 @@ input{
 	width: 116px;
 	font-family: "微软雅黑";
 	font-size: 10pt;
-	color:#808080;
+	color:rgb(202,202,202);
 }
 .input_send_group{
 	margin:0 auto;
