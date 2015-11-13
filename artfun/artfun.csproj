@@ -80,6 +80,7 @@
     <Content Include="imgs\XMLID_903_.jpg" />
     <Content Include="js\jquery-1.11.2.min.js" />
     <Content Include="js\regist\regist.js" />
+    <Content Include="user\success.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="user\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\success.aspx.cs">
+      <DependentUpon>success.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\success.aspx.designer.cs">
+      <DependentUpon>success.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
