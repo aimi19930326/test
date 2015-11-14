@@ -1,5 +1,5 @@
 body{
-	font-family: "微软雅黑";
+	font-family: "黑体";
 	color: #808080;
 	height: 800px;
 	font-size: 10pt;
@@ -14,9 +14,18 @@ ul{
 input{
 	height: 25px;
 	width: 180px;
-	border-width: 1pt;
-	border-color: rgb(177,177,177);
+    border-style:none;
+	background-color:rgb(240,240,240);
 }
 a{
 	text-decoration: none;
+}
+a:link{
+    color:rgb(0,0,0);
+}
+a:hover {
+    color:rgb(0,240,0);
+}
+a:visited {
+    color:rgb(240,0,0);
 }

@@ -1,5 +1,6 @@
-var registname="";
-$(document).ready(function(){
+var registname = "";
+$(document).ready(function () {
+    $(".item2").hide();
 	$("input").css({
 		"font-size":"10pt",
 		"font-family":"微软雅黑",
@@ -9,6 +10,12 @@ $(document).ready(function(){
 	$(".password").val("请输入密码：至少6位");
 	$(".confirmpsd").val("再次确认密码");
 	$(".input_verify").val("验证码");
+	$(".confirmpsd").blur(function () {
+	    if ($(this).val() == "") {
+	        $(this).val("再次确认密码");
+	        $(this).attr("type", "text");
+	    }
+	});
 	$(".textbox").bind("click",function(){
 		registname="";
 		registname=$(this).val();
@@ -66,8 +73,8 @@ $(document).ready(function(){
 			}
 		},1000);
 	    $(this).css({
-			"background-color":"rgb(191,39,45)",
-			"color":"#FFFFFF",
+			"background-color":"rgb(255,255,90)",
+			"color":"rgb(240,0,0)",
 			"font_weight":"bold",
 	    });
 });
@@ -81,7 +88,11 @@ $(document).ready(function(){
 		});
 		$(".btn_phone").css({
 			"color":"#808080"
-			});
+		});
+		$(".input_send_group").hide();
+		$(".confirmpsd").css({
+            "margin-bottom":"15px",
+		})
 	});
 	$(".btn_phone").click(function(){
 		$(".textbox").val("请输入手机号");
@@ -91,8 +102,13 @@ $(document).ready(function(){
 			$(".btn_email").css({
 				"color":"#808080"
 			});
+			$(".input_send_group").show();
+			$(".confirmpsd").css({
+			    "margin-bottom": "0px",
+			})
 	});
 	$(".regist").bind("click", function () {
-	    window.location.replace("login.aspx");
+	    $(".item1").hide();
+	    $(".item2").show();
 	});
 });
