@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace artfun.artwork
+namespace artfun
 {
-    public partial class work : System.Web.UI.Page
+    public partial class head : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
