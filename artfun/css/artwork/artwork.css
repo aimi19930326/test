@@ -73,8 +73,19 @@
     margin-right:0px;
 }
 #childItem{
-    display:none;
-    visibility:hidden;
+    position:absolute;
+    margin-left:80px;
+    float:left;
+}
+#childItem ul li{
+    height:auto;
+    width:110px;
+    background-color:#979797;
+    float:none;
+}
+#childItem ul li a:hover{
+   background-color:#ffff78;
+   color:#4d4d4d;
 }
 .subnav_middle{
     float:left;
@@ -129,14 +140,15 @@
    color:#ffffff;
    text-align:center;
 }
-.subnav .subnav_right_dlist li a{
+.subnav .subnav_right_dlist li a,#childItem ul li a{
     color:#ffffff;
 }
-.subnav .subnav_right_dlist li a:hover{
+/*.subnav .subnav_right_dlist li a:hover{
     color:#4d4d4d;
-}
-.subnav_right_dlist li:hover{
+}*/
+.subnav_right_dlist li:hover,#childItem ul li:hover{
    background-color:#ffff78;
+   color:#4d4d4d;
 }
 .subnav_right_dlist li:first-child{
     background-color:#4d4d4d;
