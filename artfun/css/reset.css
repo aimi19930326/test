@@ -6,6 +6,13 @@ body{
 	margin:0 auto;
     outline:none;
 }
+button{
+    font-family: "微软雅黑";
+    font-weight:100;
+	color: #808080;
+	font-size: 10pt;
+    outline:none;
+}
 ul{
 	margin:0px;
 	padding: 0px;
