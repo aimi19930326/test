@@ -5,6 +5,7 @@ body{
 	font-size: 10pt;
 	margin:0 auto;
     outline:none;
+    word-spacing:2px;
 }
 button{
     font-family: "微软雅黑";
@@ -23,6 +24,10 @@ input{
 	width: 180px;
     border-style:none;
 	background-color:rgb(240,240,240);
+    padding: 2px 2px;
+    padding-left:5px;
+    font-family:"微软雅黑";
+    color:#808080;
     outline:none;
 }
 a{
